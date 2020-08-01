@@ -16,7 +16,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("sound-ors/CI-with-Jenkins-in-AWS-Demo")
+        app = docker.build("sound-ors/CI-with-Jenkins-in-aws-demo")
     }
 
     stage('Test image') {
